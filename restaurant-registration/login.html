@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="script.js" ></script>
+</head>
+<body>
+    <!------------------- reg banner ------------------->
+    <div class="registration">
+        <div class="reg-banner">
+            <div class="reg-mask">
+                <div class="box">
+                    <div class="heading text-center">
+                        <h1>Login</h1>
+                    </div>
+                
+                        <div class="inputs">
+                             <form  onsubmit="return vfun1()" name="myform1" action="login.php" method="POST">
+                                    <P class="label">Username</P>
+                                    <input type="text" name="uname" placeholder="Enter Username">
+                                    <p class="label">Password</p>
+                                    <input type="password" name="password" placeholder="Enter Password">
+                        </div>
+                                    <div class="logbtn">
+                                        <div id="errorbox"class="color-white"></div>
+                                         <input type="submit" name="" value="Login">
+                                          <br>
+                                          <a href="index.html"> Register for new account</a>
+                                    </div>
+                                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

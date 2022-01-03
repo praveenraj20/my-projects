@@ -1,0 +1,303 @@
+/* Fonts Link*/
+@font-face {
+    font-family: "Raleway";
+    src: url("fonts/Raleway-Regular.ttf")
+}
+
+@font-face {
+    font-family: "RalewayBold";
+    src: url("fonts/Raleway-Bold.ttf")
+}
+
+/* Common Css */
+.blue-btn{
+    background: #009DC9;
+    border-color:#009DC9 ;
+    color: #fff !important;
+    border-radius: 8px;
+}
+
+.blue-btn.focus, .blue-btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 157, 201, 0.25);
+}
+
+.yellow-txt{
+    color:#f0ab00;
+}
+
+.blue-txt{
+    color:#009DC9;
+}
+
+.f-bold{
+    font-family: "RalewayBold";
+}
+
+.title{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+
+.title2{
+    font-size: 40px;
+    font-family: "Raleway";
+}
+
+.title3{
+    font-size: 30px;
+}
+p{
+    color:  #CCCCCC;;
+}
+.card-para{
+    color: #000000;;
+}
+
+
+/* Banner */
+.banner-section{
+    background-image: linear-gradient(to right, #001537 , #022f78);
+    height: 100vh;
+}
+
+.banner-section .navbar-nav .nav-item{
+    padding: 0 20px;
+}
+.banner-section .navbar-nav .nav-item a{
+    color: #fff;
+}
+
+.banner-section .navbar-nav .nav-item a.active{
+    color: #009DC9;
+}
+
+.banner-section .navbar-nav .nav-item button{
+    padding: 10px 25px;
+}
+
+.banner-content{
+    color:#fff;
+    height: calc(100% - 130px);
+    font-family: "RalewayBold";
+} 
+
+.banner-content h1{
+    font-size:30px;
+    font-weight: bold;
+}
+
+.banner-content h2{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+
+/* Section */
+.section-2{
+    background: #001537;
+    color: #fff;
+}
+
+.white-card{
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+}
+
+.black-card{
+    background: #000a1a;
+    border-radius: 15px;
+}
+
+.yellow-square{
+    background: #f0ab00;
+    height: 14px;
+    width: 11px;
+}
+
+
+/* About us */
+.core-business-section .title3{
+    padding: 80px 0;
+}
+
+
+.core-business-row .white-card,.core-business-row .black-card{
+    min-height: 400px;
+    height: 100%;
+}
+
+.width-align-card{
+    width: 80%;
+    margin-left: auto;
+}
+
+
+/* Our Services */
+.our-service .white-card,.our-service .black-card{
+    padding: 30px !important;
+}
+
+.our-service .white-card p,.our-service .black-card p{
+    font-size: 10px;
+}
+
+.our-service .min-height-card{
+    min-height: 325px;
+}
+
+.our-service .square-position{
+    position: absolute;
+    top: 14px;
+    right: -20px;
+}
+
+.our-service .money-img{
+    margin-top: -50px;
+}
+
+
+/* Proccess */
+.process-cards .white-card,.process-cards .black-card{
+    width: 280px;
+    height: 380px;
+    position: relative;
+    padding: 25px 35px;
+}
+
+.process-cards h2{
+    font-weight: bold;
+}
+
+.polygon-img{
+    display: inline-block;
+    position: relative;
+}
+
+.polygon-img .img-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.discovery-polygon{
+    position: absolute;
+    right: -65px;
+    bottom: -40px;
+}
+
+.design-polygon{
+    position: absolute;
+    left: -65px;
+    bottom: -40px;
+}
+
+.development-polygon{
+    position: absolute;
+    right: -65px;
+    top: -40px;
+}
+
+.delivery-polygon{
+    position: absolute;
+    left: -65px;
+    top: -40px;
+}
+
+.discovery-card{
+    margin-right: 60px;
+}
+
+.design-card{
+    margin-left: 60px;
+}
+
+.development-card{
+    margin-top: 59px;
+    margin-right: -16px;
+}
+
+.delivery-card{
+    margin-top: 59px;
+    margin-left: 135px;
+}
+
+
+.development-card h2,.delivery-card h2{
+    margin-top:85px;
+}
+
+
+/* Programs */
+.program-card .black-card{
+    padding: 40px;
+}
+
+.program-card .black-card h5{
+    margin-top: 100px;
+}
+
+.program-card .white-card{
+    padding: 30px;
+}
+
+.program-card .white-square-img{
+    height: 65px;
+    width: 65px;
+    background: #fff;
+    margin-top: 15px;
+}
+
+.program-card .grey-square-img{
+    height: 45px;
+    width: 55px;
+    background: #cbcbcb;
+    margin-top: 15px;
+}
+
+.program-form input{
+    background: transparent;
+    height: 50px;
+    color: #fff;
+}
+
+.program-form textarea,.form-control:focus{
+    background: transparent;
+    color: #fff;
+}
+
+.form-section h4{
+    font-family: "Raleway";
+}
+
+.form-control:focus{
+    background: transparent;
+    border-color: #fafafa;
+    box-shadow: 0 0 0 0.2rem rgba(244, 244, 244, 0.25);
+}
+
+.program-form button{
+    padding: 13px 15px;
+    font-weight: bold;
+}
+
+
+/* Footer */
+footer{
+    background: #000;
+    color: #fff;
+}
+
+footer img{
+    height: 20px;
+}
+
+footer .icon{
+    background: #fff;
+    height: 28px;
+    width: 28px;
+    border-radius: 3px;
+}
